@@ -1,0 +1,128 @@
+/* @group Home styles -------------------- */
+
+.page-home {
+
+  .page-header {
+    background-image: url("../img/default-intro-bg_201401101741.jpg");
+    padding: 60px 0;
+
+    .my-avatar { width: pct( 341, 1284); }
+
+    .joel-photo { margin-right: 40px; max-width: 245px; }
+
+    .intro-copy { width: 525px;
+
+      h1 { width: 120%; margin: 20px 0 25px; font-weight: 300;
+
+        a { font-weight: 900; }
+
+      }
+
+    }
+
+  }
+
+}
+
+/* Writing (article index) */
+
+.writing { padding-bottom: 80px;
+
+  h2 {
+    font-weight: 300;
+    font-size: 48px;
+    letter-spacing: -2px;
+    margin: 40px 0 10px;
+
+    &.other-writing { font-size: 36px; }
+
+  }
+
+  .article-nav {
+    font-weight: 300;
+    font-size: 24px;
+    margin-bottom: 40px;
+
+    > a {
+      color: $blue;
+      @include border-radius(5px);
+      margin-left: 10px;
+      padding: 0 10px;
+      float: left;
+      line-height: 1.25;
+
+      &:first-child { margin-left: 0; }
+
+      &:hover { background-color: $blue_l3; }
+
+    }
+
+    .showing { color: $gray_3; background-color: $gray_1; cursor: default;
+
+      &:hover { background-color: $gray_1; }
+
+    }
+
+  }
+
+  .articles { display: none;
+
+    &.show { display: block; }
+
+  }
+
+  .article-index {
+    list-style: none;
+    padding-left: 0;
+
+    li { margin: 20px 0; }
+
+    .article-date {
+      font-size: 18px;
+      color: $gray_2;
+      margin-left: -128px;
+      display: block;
+      float: left;
+      text-align: right;
+      letter-spacing: 1px;
+      width: 105px;
+      line-height: 46px;
+      font-weight: 300; }
+
+    .article-title {
+      font-size: 28px;
+      color: $blue;
+      font-weight: 400;
+      letter-spacing: -1px;
+
+      .external-link-icon-svg {
+        margin-left: 5px;
+
+        path {
+          fill: #09f;
+          opacity: .5;
+        }
+      }
+
+    }
+
+    .article-source { display: block; font-style: italic; color: $gray_2; }
+
+    a { display: block;
+
+      &:hover {
+
+        .article-date { color: $gray_3; }
+
+        .article-title { opacity: .8; background-color: $blue_l3; padding: 0 10px; margin: 0 -10px; @include border-radius(4px); }
+
+      }
+
+    }
+
+  }
+
+}
+
+
+/* @end Home styles */

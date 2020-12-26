@@ -1,0 +1,43 @@
+/* @group Category Page Styles -------------------- */
+
+body.category {
+
+  .page-header { margin-bottom: 20px;
+
+    .intro-copy { width: auto; }
+
+    h1 { text-transform: capitalize; }
+
+  }
+
+}
+
+.categories {
+
+  h4 { font-weight: 300; font-size: 22px; margin: 60px 0 20px; }
+
+  .category-list {
+    margin: 0; padding: 0;
+    list-style: none;
+
+    li {
+      text-transform: capitalize;
+      display: inline-block;
+
+      > a {
+        background-color: rgba($blue_l3, .4);
+        @include border-radius(5px);
+        padding: 0 8px;
+        display: inline-block;
+        margin: 0 2px 8px;
+        font-weight: 300; }
+
+      &:hover { opacity: .75; }
+
+    }
+
+  }
+
+}
+
+/* @end Category Page Styles */
