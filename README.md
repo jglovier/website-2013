@@ -1,22 +1,18 @@
-joelglovier.com [![Build Status](https://travis-ci.org/jglovier/jglovier.github.io.png)](https://travis-ci.org/jglovier/jglovier.github.io)
+2013.joelglovier.com
 ==================
 
-## About the Site
+![image](https://user-images.githubusercontent.com/1319791/103161096-ddaf1100-4791-11eb-9390-40723746fd81.png)
 
-This site is my personal home on the World Wide Intarnetz™. I write about stuff, I link to other stuff, and I showcase stuff I've done/built/designed. It's purely personal in nature and does not necessarily reflect the views of my wonderful employer, my Murica, my tattoo artist, my barber or my neighbor's dog. But it's where I represent, yo!
+Older version of my website (circa 2013-2015) dumped from a [previous commit](https://github.com/jglovier/jglovier.github.io/commit/2edc983e5fec59f2505e37e8298b685ac80bb9be) to this repo.
 
-It lives here: [joelglovier.com](http://joelglovier.com)
+This version of my site represented a couple key changes. 
 
-For more about the latest iteration, read this blog post: [joelglovier.com/writing/redesigning-and-rebuilding/](http://joelglovier.com/writing/redesigning-and-rebuilding/)
+Prior to this version, my site had primarily been about showcasing visual design work I had produced as a typical designer portfolio site would. But in this version, I wanted to move more toward a writing focused site. It felt more like a blog.
 
-Many of the post images are retouched versions of photos I found at [Unsplash](http://unsplash.com/). If you are looking for great photos to use on your own blog, they have a great collection all free for public use.
+This was partly because producing visual design work had become something of a commodity to me in my process, and also because I was seeing my work more and more as the ability to think through problems and uncover solutions rather than just the ability produce visual design artifacts. It was also influenced by being part of a developer-centric world for a few years at this point that exposed me to the proliferation of generated static sites, and hosting via GitHub Pages.
 
-## Licensing
+Which leads me to the other key change, a move to a Jekyll based static generated site hosted on GitHub Pages. Around the time I built this version of the site I had just joined GitHub and wanted to dogfood more of our GitHub workflow (i.e. [GitHub Flow](https://guides.github.com/introduction/flow/)).
 
-Feel free to inspect the code structure, and reuse what is appropriate. But please respect that the files in the following directories are Copyright Joel Andrew Glovier. You may not reuse anything therein without my written permission:
-- _posts/
-- post-images/
-- img/
-- fonts/ (these fonts are licensed only for my own use)
+Previously I had been using an SVN based versioning workflow where I'd manually upload files and directories to a server via an FTP client. With this new workflow I was to start using Git and GitHub for my personal site for the first time, GitHub Desktop, GitHub Pages, and Jekyll. This gave me a chance to really immerse myself fully into a GitHub based workflow, which helped me empathize with the developers I was designing for at GitHub.
 
-All other directories and files are MIT Licensed (where applicable).
+Blog post about the redesign from when it was shipped: **[Redesigning and rebuilding](https://2013.joelglovier.com/writing/redesigning-and-rebuilding)**
