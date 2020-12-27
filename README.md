@@ -1,7 +1,9 @@
-2013.joelglovier.com
+[2013.joelglovier.com](https://2013.joelglovier.com)
 ==================
 
 ![image](https://user-images.githubusercontent.com/1319791/103161096-ddaf1100-4791-11eb-9390-40723746fd81.png)
+
+---
 
 Older version of my website (circa 2013-2015) dumped from a [previous commit](https://github.com/jglovier/jglovier.github.io/commit/2edc983e5fec59f2505e37e8298b685ac80bb9be) to this repo.
 
@@ -15,4 +17,4 @@ Which leads me to the other key change, a move to a Jekyll based static generate
 
 Previously I had been using an SVN based versioning workflow where I'd manually upload files and directories to a server via an FTP client. With this new workflow I was to start using Git and GitHub for my personal site for the first time, GitHub Desktop, GitHub Pages, and Jekyll. This gave me a chance to really immerse myself fully into a GitHub based workflow, which helped me empathize with the developers I was designing for at GitHub.
 
-Blog post about the redesign from when it was shipped: **[Redesigning and rebuilding](https://2013.joelglovier.com/writing/redesigning-and-rebuilding)**
+Blog post about the redesign from when   it was shipped: **[Redesigning and rebuilding](https://2013.joelglovier.com/writing/redesigning-and-rebuilding)**
