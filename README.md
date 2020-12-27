@@ -17,4 +17,4 @@ Which leads me to the other key change, a move to a Jekyll based static generate
 
 Previously I had been using an SVN based versioning workflow where I'd manually upload files and directories to a server via an FTP client. With this new workflow I was to start using Git and GitHub for my personal site for the first time, GitHub Desktop, GitHub Pages, and Jekyll. This gave me a chance to really immerse myself fully into a GitHub based workflow, which helped me empathize with the developers I was designing for at GitHub.
 
-Blog post about the redesign from when   it was shipped: **[Redesigning and rebuilding](https://2013.joelglovier.com/writing/redesigning-and-rebuilding)**
+:eyes: Read more on the blog post about the redesign from the initial ship in 2013: **[Redesigning and rebuilding](https://2013.joelglovier.com/writing/redesigning-and-rebuilding)**
